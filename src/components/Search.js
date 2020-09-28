@@ -83,7 +83,7 @@ const Search = (props) => {
         value={/* this should be the century */} 
         onChange={/* this should update the value of the century */}>
         <option value="any">Any</option>
-        {/* map over the classificationList, return an <option /> */}
+        {/* map over the centuryList, return an <option /> */}
       </select>
      </fieldset>
     <button>SEARCH</button>
