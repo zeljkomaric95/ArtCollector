@@ -49,7 +49,7 @@ This file also needs your help!
 - Create new stateful getters/setters with `useState`
 - Hook up the previous and next buttons with what's in info: `info.prev` and `info.next` will be super useful both for the disabled attribute as well as the onClick function
 - Build a map function for the rendering of `searchResults` passed in as a prop from `<App />`
-- That rendering should also include an `onClick` which calls `setFeaturedObject` equal to the current record being iterated over in the map
+- That rendering should also include an `onClick` which calls `setFeaturedResult` equal to the current record being iterated over in the map
 
 ### `./components/Feature.js`
 
