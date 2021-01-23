@@ -234,7 +234,7 @@ body {
   display: grid;
   grid-gap: 4px 12px;
   grid-template-columns: max-content minmax(0, 1fr);
-  grid-template-rows: repeat(auto-fill, 2em);
+  grid-template-rows: repeat(auto-fill);
 }
 
 .object-feature .facts .title {
