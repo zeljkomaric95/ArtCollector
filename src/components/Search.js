@@ -11,8 +11,12 @@ import {
 
 const Search = (props) => {
   // Make sure to destructure setIsLoading and setSearchResults from the props
-
-
+  const [searchResults, setSearchResults] = useState({info: {}, record: []})
+  const [centuryList, setCenturyList] = []
+  const [classificationList, setClassificationList] = ''
+  const [queryString, setQueryString] = ''
+  const [century, setCentury] = 'any'
+  const [classification, setClassification] = 'any'
   /**
    * We are at the Search component, a child of app. This has a form, so we need to use useState for
    * our controlled inputs:
@@ -33,6 +37,7 @@ const Search = (props) => {
    * Make sure to console.error on caught errors from the API methods.
    */
   useEffect(() => {
+    Promise.all([]) fetchAllCenturies
 
   }, []);
 
